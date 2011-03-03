@@ -4,7 +4,8 @@ var $m = minimal.template("<html><head><title></title><body><p id='content'></p>
 
 $m({
 	title: "some title",
-	content: "some content"
+	content: "some content",
+	unknown: "not in template"
 });
 
 console.log($m.html());
